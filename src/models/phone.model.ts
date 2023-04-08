@@ -29,9 +29,9 @@ export class Phone extends Entity {
   })
   releaseDate?: string;
 
-  @property({
-    type: 'number'
-  })
+  // @property({
+  //   type: 'number'
+  // })
   @belongsTo(() => Manufacturer, {name: 'manufacturer'})
   manufacturerId: number;
 
