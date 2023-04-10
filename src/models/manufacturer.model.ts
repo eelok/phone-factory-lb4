@@ -6,6 +6,8 @@ export class Manufacturer extends Entity {
   @property({
     type: 'number',
     id: true,
+    generated: true,
+    databaseGenerated: true,
   })
   id: number;
 
