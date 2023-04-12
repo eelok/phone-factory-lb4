@@ -6,7 +6,7 @@ const config = {
   connector: 'postgresql',
   url: '',
   host: 'localhost',
-  port: 5432,
+  port: 5436,
   user: 'postgres',
   password: 'postgres',
   database: 'phone-factory-lb4'
